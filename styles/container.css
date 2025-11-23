@@ -40,6 +40,33 @@
   font-weight: 500;
 }
 
-canvas {
+img {
   display: none;
+  width: 90%;
+  height: 90%;
+  max-width: 10rem;
+  max-height: 10rem;
+  margin: 1rem auto;
+}
+
+.error {
+  animation: shake 0.1s linear 10;
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-2px);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  75% {
+    transform: translateX(2px);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
