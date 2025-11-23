@@ -8,8 +8,16 @@
     <title>QR Code Generator</title>
 
     <link href="./styles/general.css" rel="stylesheet"/>
+    <link href="./styles/container.css" rel="stylesheet"/>
   </head>
   <body>
-    
+    <div class="container">
+      <p>Enter Text or URL</p>
+      <input class="js-input" type="text" placeholder="Text or URL"/>
+      <canvas class=".js-canvas"></canvas>
+      <button class="js-button">Generate QR Code</button>
+    </div>
+
+    <script type="module" src="./scripts/script.js"></script>
   </body>
 </html>
